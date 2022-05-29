@@ -88,7 +88,32 @@ li:hover{
 #about-page-1{
     width: 100%;
     height: 100vh;
-    background-color:rgb(93, 12, 199);
+}
+
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 5px;
+}
+
+.image-container img{
+    position: absolute;
+    top: -20%;
+    left: 0;
+    width: 101%;
+    object-fit: cover;
+}
+
+.image-layout{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
 }
 
 #about-page-2{
