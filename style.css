@@ -51,7 +51,7 @@ a, a:link, a:visited, a:active{
     color: white;
 }
 
-li:hover{
+.header-menu ul li:hover{
     opacity: 0.6;
 }
 
@@ -116,10 +116,96 @@ li:hover{
     opacity: 0.4;
 }
 
+.about-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 5vh;
+    width: 80%;
+}
+
 #about-page-2{
+    position: relative;
     width: 100%;
     height: 100vh;
-    background-color:rgb(12, 199, 199);
+    background-color:rgb(127, 197, 212);
+    color: white;
+}
+
+.about-page-2-top, .about-page-2-bottom{
+    position: relative;
+    width: 100%;
+    height: 25%;
+    box-shadow: 0 0 5px black;
+}
+
+.about-top-text{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+    font-size: 4vh;
+    width: 80%;
+}
+
+.about-top-strip{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -80%);
+    width: 90%;
+    height: 3px;
+    background-color: white;
+}
+
+.about-page-2-video{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 5px black;
+}
+
+.about-page-2-video video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.about-page-2-bottom ul{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    height: 80%;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.about-bottom-strip-li{
+    max-width: 5%;
+}
+
+.about-page-2-bottom ul li{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-bottom-strip{
+    height: 100%;
+    width: 3px;
+    background-color: white;
 }
 
 #about-page-3{
