@@ -167,7 +167,7 @@ a, a:link, a:visited, a:active{
     transform: translate(-50%, -80%);
     width: 90%;
     height: 3px;
-    background-color: white;
+    background-color: rgb(221, 221, 221);
 }
 
 .about-page-2-video{
@@ -214,7 +214,7 @@ a, a:link, a:visited, a:active{
 .about-bottom-strip{
     height: 100%;
     width: 3px;
-    background-color: white;
+    background-color: rgb(221, 221, 221);
 }
 
 #about-page-3{
