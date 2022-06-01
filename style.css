@@ -37,10 +37,19 @@ h1, p:hover{
 }
 
 .logo{
+    height: 90%;
+}
+
+.logo-border{
     margin: 3vh;
-    height: 70%;
+    height: 50%;
+    width: 10vh;
     border-radius: 100px;
     border: 2px solid white;
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .header-menu{
@@ -254,7 +263,8 @@ h1, p:hover{
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 3vh;
+    font-size: 3.5vh;
+    opacity: 0.7;
     width: 80%;
 }
 
