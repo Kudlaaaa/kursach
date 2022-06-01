@@ -11,10 +11,6 @@ a, a:link, a:visited, a:active{
     color: white;
 }
 
-h1, p:hover{
-    cursor: default;
-}
-
 .container{
     width: 100%;
     height: auto;
@@ -226,6 +222,7 @@ h1, p:hover{
     height: 100vh;
     background-color:rgb(127, 197, 212);
     position: relative;
+    box-shadow: 0 0 5px black;
 }
 
 .about-page-3-top, .about-page-3-bottom{
@@ -274,6 +271,7 @@ h1, p:hover{
     position: relative;
     padding: 5vh;
     color: white;
+    box-shadow: 0 0 5px black;
 }
 
 .contacts-header{
@@ -309,10 +307,10 @@ h1, p:hover{
 }
 
 #to-main{
-    width: 40px;
+    width: 4vh;
     position: fixed;
     left: 50%;
-    bottom: 5%;
+    bottom: 2%;
     transform: translateX(-50%);
 }
 
