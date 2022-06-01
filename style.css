@@ -11,6 +11,10 @@ a, a:link, a:visited, a:active{
     color: white;
 }
 
+h1, p:hover{
+    cursor: default;
+}
+
 .container{
     width: 100%;
     height: auto;
@@ -33,8 +37,10 @@ a, a:link, a:visited, a:active{
 }
 
 .logo{
-    height: 90%;
-    margin: 10px;
+    margin: 3vh;
+    height: 70%;
+    border-radius: 100px;
+    border: 2px solid white;
 }
 
 .header-menu{
@@ -218,17 +224,20 @@ a, a:link, a:visited, a:active{
 .about-page-3-top, .about-page-3-bottom{
     width: 100%;
     height: 50%;
-    overflow: hidden;
 }
 
 .collage-image-container{
     position: relative;
     float: left;
     width: calc(100% / 3);
+    height: 50vh;
+    overflow: hidden;
 }
 
 .collage-image-container img{
    width: 100%;
+   height: 100%;
+   object-fit: cover;
 }
 
 .collage-image-layout{
@@ -239,25 +248,56 @@ a, a:link, a:visited, a:active{
     height: 100%;
     background-color: white;
     opacity: 0.7;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
 }
 
-.collage{
-    float: left;
-    width: calc(100% / 3);
+.collage-image-container p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 3vh;
+    width: 80%;
 }
 
 #contacts-page{
     width: 100%;
-    height: 100vh;
-    background-color:rgb(12, 199, 199);
+    background-color:rgb(127, 197, 212);
+    position: relative;
+    padding: 5vh;
+    color: white;
+}
+
+.contacts-header{
+    width: 100%;
+    text-align: center;
+    font-size: 4vh;
+    margin-bottom: 5vh;
+}
+
+#contacts-page ul{
+    list-style-type: none;
+}
+
+#contacts-page ul li{
+    position: relative;
+    margin-bottom: 5vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.link-img{
+    width: 10vh;
+}
+
+#contacts-page ul li p{
+    font-size: 3vh;
+    margin-left: 5vw;
 }
 
 #to-main{
-    width: 50px;
+    width: 40px;
     position: fixed;
     left: 50%;
     bottom: 5%;
