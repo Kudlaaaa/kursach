@@ -81,6 +81,9 @@ a, a:link, a:visited, a:active{
 
 .main-page-content{
     padding: 4vh;
+}
+
+#dolls{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
