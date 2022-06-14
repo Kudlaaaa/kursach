@@ -12,7 +12,7 @@ function loadGoods(){
             htmlOut+='<img src="'+data[key]['image']+'" alt="Кукла">';
             htmlOut+='<div class="single-doll-img-layhtmlOut"></div>';
             htmlOut+='<p class="buy-button">Заказать</p></a></div>';
-            htmlOut+='<p>'+data[price]+'</p>';
+            htmlOut+='<p>'+data['price']+'</p>';
             htmlOut+='</div>';
         }
         $('#dolls').html(htmlOut);
