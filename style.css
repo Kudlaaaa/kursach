@@ -135,7 +135,7 @@ a, a:link, a:visited, a:active{
     width: 80%;
 }
 
-#about-page-2{
+#about-page-3{
     position: relative;
     width: 100%;
     height: 100vh;
@@ -143,14 +143,21 @@ a, a:link, a:visited, a:active{
     color: white;
 }
 
-.about-page-2-top, .about-page-2-bottom{
+.about-page-3-top, .about-page-3-bottom{
     position: relative;
     width: 100%;
     height: 25%;   
 }
 
-.about-page-2-top{
+.about-page-3-top{
     box-shadow: inset 0 0 20px white;
+}
+
+.about-page-3-video{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
 }
 
 .about-top-text{
@@ -173,14 +180,7 @@ a, a:link, a:visited, a:active{
     background-color: rgb(221, 221, 221);
 }
 
-.about-page-2-video{
-    position: relative;
-    width: 100%;
-    height: 50%;
-    overflow: hidden;
-}
-
-.about-page-2-video video{
+.about-page-3-video video{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -188,7 +188,7 @@ a, a:link, a:visited, a:active{
     object-fit: cover;
 }
 
-.about-page-2-bottom ul{
+.about-page-3-bottom ul{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -206,7 +206,7 @@ a, a:link, a:visited, a:active{
     max-width: 5%;
 }
 
-.about-page-2-bottom ul li{
+.about-page-3-bottom ul li{
     width: 25%;
     display: flex;
     align-items: center;
@@ -219,15 +219,13 @@ a, a:link, a:visited, a:active{
     background-color: rgb(221, 221, 221);
 }
 
-#about-page-3{
+#about-page-2{
     width: 100%;
     height: 100vh;
-    background-color:rgb(127, 197, 212);
-    position: relative;
     box-shadow: 0 0 20px white;
 }
 
-.about-page-3-top, .about-page-3-bottom{
+.about-page-2-top, .about-page-2-bottom{
     width: 100%;
     height: 50%;
 }
@@ -288,7 +286,6 @@ a, a:link, a:visited, a:active{
 }
 
 #contacts-page ul li{
-    position: relative;
     margin-bottom: 5vh;
     height: 10vh;
     display: flex;
